@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /admin/
+Disallow: /editor/
+Sitemap: https://evgenarkusev.github.io/roomcraft-3d/sitemap.xml
