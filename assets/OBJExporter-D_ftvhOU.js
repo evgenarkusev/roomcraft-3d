@@ -1,4 +1,4 @@
-import{c as V,h as C,d as L,an as S,ao as N,Z as k}from"./three-DtKB-FGo.js";class E{parse(j){let r="",a=0,v=0,A=0;const n=new V,b=new C,d=new V,M=new L,y=[];function W(e){let m=0,x=0,l=0;const f=e.geometry,t=new S,i=f.getAttribute("position"),u=f.getAttribute("normal"),p=f.getAttribute("uv"),B=f.getIndex();if(r+="o "+e.name+`
+import{c as V,h as C,d as L,an as S,ao as N,Z as k}from"./three-DWHiL4iy.js";class E{parse(j){let r="",a=0,v=0,A=0;const n=new V,b=new C,d=new V,M=new L,y=[];function W(e){let m=0,x=0,l=0;const f=e.geometry,t=new S,i=f.getAttribute("position"),u=f.getAttribute("normal"),p=f.getAttribute("uv"),B=f.getIndex();if(r+="o "+e.name+`
 `,e.material&&e.material.name&&(r+="usemtl "+e.material.name+`
 `),i!==void 0)for(let o=0,s=i.count;o<s;o++,m++)n.fromBufferAttribute(i,o),n.applyMatrix4(e.matrixWorld),r+="v "+n.x+" "+n.y+" "+n.z+`
 `;if(p!==void 0)for(let o=0,s=p.count;o<s;o++,l++)M.fromBufferAttribute(p,o),r+="vt "+M.x+" "+M.y+`
